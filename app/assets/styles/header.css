@@ -1,0 +1,25 @@
+.navbar-default{
+	background-color: #2d2d2d;
+}
+
+.navbar{
+	border:none;
+}
+
+
+.masthead-nav{
+	margin-top:5px;
+}
+
+.masthead-nav > li{
+	display: inline-block;
+}
+
+.masthead-nav > li > a{
+	color:#FFF;
+}
+
+.masthead-nav > li > a:hover{
+	background-color: #2d2d2d;
+	border-bottom: 5px solid #EADD4D;
+}
