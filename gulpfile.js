@@ -58,9 +58,6 @@ gulp.task('staticsvr', function(next){
 
 gulp.task('dev', ['staticsvr'], function(){
   var lr = livereload();
-/*  gulp.watch(src_js.concat(views), ['build', 'views', 'css']).on('change', function(file){
-    lr.changed(file.path)
-  });*/
 
   gulp.watch(['app/*.html'].concat(styles), ['css']).on('change', function(file){
     lr.changed(file.path);
